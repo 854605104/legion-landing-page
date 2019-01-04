@@ -1,0 +1,358 @@
+/*
+Orange: #f7931e
+Deep Blue: #135187
+Deepest Blue: #334361
+Light Blue:#3195c3
+Lighter Blue: #f1f8fe
+*/
+
+/* ----------------------------------------------- */
+/* Basic setup */
+/* ----------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #fff;
+  color: #555;
+  font-family:sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+/* ----------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ----------------------------------------------- */
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+  height: auto;
+}
+
+/* ----- HEADINGS ----- */
+
+/* ----- BUTTONS ----- */
+.btn:link,
+.btn:visited,
+input[type = submit]{
+  display: inline-block;
+  padding: 8px 24px;
+  font-weight: normal;
+  text-decoration: none;
+  border-radius: 25px;
+  -webkit-transition: background-color 0.2s, border 0.2s,color 0.2s;
+  transition: background-color 0.2s, border 0.2s,color 0.2s;
+
+  background: #449bfc;
+  color: white;
+  margin-top: 10px;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+
+.btn-ghost:link,
+.btn-ghost:visited,
+input[type = submit]{
+  display: inline-block;
+  padding: 8px 24px;
+  font-weight: normal;
+  text-decoration: none;
+  border-radius: 25px;
+  -webkit-transition: background-color 0.2s, border 0.2s,color 0.2s;
+  transition: background-color 0.2s, border 0.2s,color 0.2s;
+
+  border: 1px solid #449bfc;
+  color: #555;
+  margin-top: 10px;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+
+/* ----------------------------------------------- */
+/* Header */
+/* ----------------------------------------------- */
+.bar-logo{
+  height: 50px;
+  width: auto;
+  float: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nav-bar{
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.nav-bar-tab{
+  float: right;
+  list-style: none;
+  margin-right: 50px;
+}
+
+.nav-bar-tab li{
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.nav-bar-tab li a:link,
+.nav-bar-tab li a:visited{
+  color: #555555;
+  padding: 8px 0;
+  font-size: 16px;
+  font-weight: normal;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: border-bottom 0.2s;
+  transition: border-bottom 0.2s;
+}
+
+.nav-bar-tab li a:hover,
+.nav-bar-tab li a:active {
+  border-bottom: 2px solid #135187;
+  color: dodgerblue;
+}
+
+.nav-bar-title{
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 23px;
+  display: inline-block;
+  float: left;
+  margin-left: 12px;
+}
+
+.head-box-title{
+  margin-top: 200px;
+  color: #1a1a1a;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+}
+
+.head-box-subtitle{
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.head-box{
+  height: 700px;
+}
+.element1{
+  width: 100%;
+  margin-top: 40px;
+}
+/* ----------------------------------------------- */
+/* Section1: Features */
+/* ----------------------------------------------- */
+.sec-features{
+  background-image: url("img/BG01.png");
+  background-color: whitesmoke;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  height: 900px;
+}
+
+.features-title{
+  margin-top: 160px;
+  font-weight: normal;
+  font-size: 42px;
+  letter-spacing: 1px;
+}
+
+.features-subtitle{
+  margin-top: 50px;
+  font-weight: normal;
+  line-height: 150%;
+  display: inline-block;
+  alignment: center;
+  width: 780px;
+}
+.cards{
+  margin-top: 120px;
+  margin-bottom: 60px;
+  padding-bottom: 60px;
+}
+.card-features{
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  height: 285px;
+  box-shadow: 0 4px 20px rgba(68,155,252,0.2);
+}
+
+.card-features:hover{
+  margin-top: 0;
+  box-shadow: 0 4px 30px rgba(68,155,252,0.34);
+  -webkit-transition: box-shadow 0.5s, margin-top 0.5s;
+}
+
+.icon-features{
+  margin-top: 50px;
+  alignment: center;
+  width: 50px;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.features-card-title{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  letter-spacing: 1px;
+}
+
+.features-card-des{
+  margin-top: 10px;
+  line-height: 150%;
+  font-size: 16px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+/* ----------------------------------------------- */
+/* Section2: Function1 */
+/* ----------------------------------------------- */
+.sec-function01{
+  background-image: url("img/function1.png");
+  background-size: initial;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 900px;
+}
+
+.function01{
+  padding-top: 240px;
+}
+
+.function-title{
+  font-size: 28px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+.line {
+  background: linear-gradient(to right,#449bfc, #76c8fe);
+  height: 4px;
+  width: 100px;
+}
+.function-des{
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 1px;
+  width: 530px;
+  text-align: justify;
+  line-height: 150%;
+}
+
+/* ----------------------------------------------- */
+/* Section2: Function2 */
+/* ----------------------------------------------- */
+.sec-function02{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #F7F7F7;
+  background-position: center;
+  height: 900px;
+  text-align: left;
+  align-content: start;
+}
+.function02{
+  padding-top: 240px;
+  padding-right: 12%;
+  float: left;
+}
+.function02-ele{
+  margin-top: 60px;
+  width: 700px;
+}
+.function02-des{
+  padding-left: 150px;
+}
+/* ----------------------------------------------- */
+/* Section3: Function3 */
+/* ----------------------------------------------- */
+.sec-function03{
+  background-image: url("img/function3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #F7F7F7;
+  background-position: center;
+  height: 900px;
+  text-align: left;
+}
+.function03{
+  padding-top: 80px;
+}
+.icon-spe{
+  margin-top: 10px;
+}
+.function03-title{
+  padding-left: 100px;
+}
+.des-spe{
+  margin-top: 40px;
+}
+/* ----------------------------------------------- */
+/* Section4: Final-sec */
+/* ----------------------------------------------- */
+.final-content{
+  padding-top: 260px;
+}
+
+.sec-final{
+  background-image: url("img/BG3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 768px;
+  text-align: left;
+}
+.final-title{
+  color: white;
+  font-weight: normal;
+  font-size: 42px;
+  letter-spacing: 2px;
+  line-height: 150%;
+}
+.final-subtitle{
+  margin-top: 40px;
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  line-height: 150%;
+}
+.btn-holder{
+  padding-top: 100px;
+  padding-left: 25%;
+}
+.btn-white{
+  display: inline-block;
+  padding: 8px 32px;
+  font-weight: normal;
+  text-decoration: none;
+  border-radius: 32px;
+  -webkit-transition: background-color 0.2s, border 0.2s,color 0.2s;
+  transition: background-color 0.2s, border 0.2s,color 0.2s;
+
+  background: white;
+  color: #449bfc;
+  margin-top: 10px;
+  margin-right: 20px;
+  font-size: 22px;
+  font-weight: bold;
+}
