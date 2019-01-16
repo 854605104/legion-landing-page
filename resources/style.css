@@ -152,6 +152,7 @@ input[type = submit]{
 }
 
 .nav-bar-title{
+  color: #1a1a1a;
   font-weight: bold;
   font-size: 18px;
   margin-top: 22px;
@@ -161,6 +162,7 @@ input[type = submit]{
 }
 
 .head-box-title{
+  font-size: 42px;
   margin-top: 200px;
   color: #1a1a1a;
   letter-spacing: 4px;
@@ -233,8 +235,8 @@ input[type = submit]{
 .icon-features{
   margin-top: 50px;
   alignment: center;
-  width: 50px;
-  height: auto;
+  width: auto;
+  height: 50px;
   margin-bottom: 5px;
 }
 
@@ -255,10 +257,7 @@ input[type = submit]{
 /* Section2: Function1 */
 /* ----------------------------------------------- */
 .sec-function01{
-  background-image: url("img/function1.png");
-  background-size: initial;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-color: white;
   height: 900px;
 }
 
@@ -270,7 +269,7 @@ input[type = submit]{
   font-size: 28px;
   font-weight: normal;
   letter-spacing: 2px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .line {
   background: linear-gradient(to right,#449bfc, #76c8fe);
@@ -291,11 +290,8 @@ input[type = submit]{
 /* Section2: Function2 */
 /* ----------------------------------------------- */
 .sec-function02{
-  background-size: cover;
-  background-repeat: no-repeat;
   background-color: #F7F7F7;
-  background-position: center;
-  height: 900px;
+  height: 780px;
   text-align: left;
   align-content: start;
 }
@@ -320,7 +316,7 @@ input[type = submit]{
   background-repeat: no-repeat;
   background-color: #F7F7F7;
   background-position: center;
-  height: 900px;
+  height: 780px;
   text-align: left;
 }
 .function03{
